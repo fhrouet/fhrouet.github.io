@@ -5,7 +5,7 @@
 }
 
 a {
-  color:#dc0000;
+  color:#d29100;
   font-weight:bolder;
   text-decoration:none;
 }
@@ -18,7 +18,7 @@ a:hover {
 
 body {
   background:#ffffff;
-  color:#323232;
+  /* #color:#323232; */
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
@@ -40,13 +40,13 @@ li {
 }
 
 #header h1 {
-  color:#2f606b;
+  color:#161616;
   font-size:200%;
   text-align:right;
 }
 
 #header h2 {
-  color:#dc0000;
+  color:#d29100;
   font-size:150%;
   text-align:right;
 }
@@ -92,7 +92,7 @@ li {
 }
 
 #footer {
-  color:#2f606b;
+  color:#161616;
   height:40px;
   margin:0 auto;
   padding-top:10px;
