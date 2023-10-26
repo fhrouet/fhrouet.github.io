@@ -1,7 +1,11 @@
-* {
-  border:0;
-  margin:0;
-  padding:0;
+html {
+  max-width: 80ch;
+  padding: 3em 1em;
+  margin: auto;
+  line-height: 1.50;
+  font-size: 1.25em;
+  font-family: sans-serif;
+  text-align:justify;
 }
 
 a {
@@ -16,90 +20,42 @@ a:hover {
   text-decoration:none;
 }
 
-body {
-  background:#ffffff;
-  /* #color:#323232; */
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: 14px;
-}
-
-ul {
-  margin-left: 2em;
-  padding-left: 0;
-}
-
-li {
-  margin-top: 3px;
-}
-
-#header {
-  padding:15px 0px 0px 0px;
-  height:150px;
-  width:900px;
-  margin:0 auto
-}
-
 #header h1 {
   color:#161616;
-  font-size:200%;
-  text-align:right;
 }
 
 #header h2 {
   color:#d29100;
-  font-size:150%;
-  text-align:right;
 }
 
 #body {
   border:1px solid #999;
-  width:900px;
-  margin:0 auto
+  padding: 1em;
 }
 
 #content {
-  padding:15px 0px 15px 0px;
-  width:860px;
-  height:auto;
-  margin:0 auto;
-  text-align:justify;
+  padding-bottom: 1em;
 }
 
 #educ{
-  padding:15px 0px 0px 0px;
   border-top:1px solid #999;
-  height:auto;
-  margin:0 auto;
-  width:860px;
+  padding-top: 1em;
 }
 
 #publis{
-  padding:15px 0px 0px 0px;
   border-top:1px solid #999;
-  height:auto;
-  margin:0 auto;
-  width:860px;
-  text-align: justify;
-  text-justify: inter-word;
+  padding-top: 1em;
 }
 
 #contact{
-  padding:15px 0px 15px 0px;
   border-top:1px solid #999;
-  height:auto;
-  margin:0 auto;
-  width:860px;
+  padding-top: 1em;
 }
 
 #footer {
-  color:#161616;
-  height:40px;
-  margin:0 auto;
-  padding-top:10px;
   text-align:center;
-  width:900px;
 }
 
 #picture {
-  height:145px;
+  height:10em;
 }
